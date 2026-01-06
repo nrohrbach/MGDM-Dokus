@@ -181,11 +181,7 @@ classDiagram
 | A1.2 | Name                 | Bezeichnung des Objekts                                                                                                   | TEXT                        | Rottenschwiler moos  | Name auf Objektblatt                                                                                       | Obligatorisch     |
 | A1.3 | RefObjBlatt          | URl                                                                                                                       |                             |                      | (Persistenter) Link auf das Objektblatt                                                                    | Fakultativ        |
 | A1.4 | DesignatType         | Schutzgebietstyp für die internationale Berichterstattung. Angabe wird vom BAFU gemäss Liste DesignationType (EU) gemacht | DesignationType: AUFZÄHLUNG | ramsar               | Vgl. http://inspire.jrc.ec.europa.eu/documents/Da ta_Specifications/INSPIRE_DataSpecificatio n_PS_v3.0.pdf | Obligatorisch     |
-| A1.5 | IUCNCategory         | Internationale Schutzgebietskategorie für die internationale Berichterstattung. Code wird vom BAFU gemäss Kategorien      | IUCNCategory: AUFZÄHLUNG    | IV (Management Area) | http://www.unep- wcmc.org/protected_areas/categories/index. html                                           | Obligatorisch     |
-
-| BAFU 2017   | BAFU 2017            | BAFU 2017                                  | Flachmoore: Umsetzung des Geoinformationsgesetzes   | Flachmoore: Umsetzung des Geoinformationsgesetzes   | 8             |
-|-------------|----------------------|--------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|---------------|
-|             |                      | MCPFE und der Kategorien der IUCN gemacht. |                                                     |                                                     |               |
+| A1.5 | IUCNCategory         | Internationale Schutzgebietskategorie für die internationale Berichterstattung. Code wird vom BAFU gemäss Kategorien MCPFE und der Kategorien der IUCN gemacht.      | IUCNCategory: AUFZÄHLUNG    | IV (Management Area) | http://www.unep- wcmc.org/protected_areas/categories/index. html                                           | Obligatorisch     |
 | A1.6        | Inkraftsetzungsdatum | Datum der Inkraftsetzung des Objekts       | DATE                                                | 01.02.1991                                          | Obligatorisch |
 | A1.7        | Mutationsdatum       | Datum der Mutation des Objekts             | DATE                                                | 1.07.2007                                           | Fakultativ    |
 | A1.8        | Mutationsgrund       | Angaben zur Mutation des Objekts           | TEXT                                                | Vergrösserung Objekt auf Antrag Kt                  | Fakultativ    |
@@ -203,15 +199,13 @@ Darstellungsmodell Bund
 
 Die  Daten  der  Flachmoore  werden  vom  BAFU  für  den  Vollzug  des  Arten-  und Biotopschutzes verwendet. Die Darstellung erfolgt im Rahmen des Erlasses resp. bei Revisionen der Flachmoorverordnung. Dabei gelangt die folgende geographische Darstellungsart zur Anwendung (Abbildung 3).
 
-Abbildung 4: Geographische Lage der Flachmoore von nationaler Bedeutung
+<img width="1022" height="545" alt="image" src="https://github.com/user-attachments/assets/19d6e9bd-9021-4955-92e5-7b6c448b8f07" />
 
-<!-- image -->
+*Abbildung 4: Geographische Lage der Flachmoore von nationaler Bedeutung*
 
-## Legende:
+**Legende:**
+<img width="146" height="36" alt="image" src="https://github.com/user-attachments/assets/0b7bffa7-1c9a-49dd-bb52-6f1f0377b4d4" />
 
-Flachmoore (national)
-
-Flachmoorgebiete
 
 ## Anhang
 
@@ -220,32 +214,78 @@ Flachmoorgebiete
 Bei Abweichungen zwischen der INTERLIS-Modelldefinition in der Modelldokumentation und dem Model Repository gilt die Version m Model Repository.
 
 ```
-INTERLIS 2.3; !!@ IDGeoIV=21.1 !!@ furtherInformation=https://www.bafu.admin.ch/geodatenmodelle !!@ technicalContact=gis@bafu.admin.ch MODEL Flachmoore_LV03_V1_1 (de) AT "https://models.geo.admin.ch/BAFU/" VERSION "2017-04-11"  = IMPORTS LocalisationCH_V1,GeometryCHLV03_V1; TOPIC Flachmoore = DOMAIN DesignationType = ( SAC, SPA, SCI, RAMSAR, NDA ); IUCNCategory = (
-```
+INTERLIS 2.3;
 
-```
-Strict_Nature_Reserve_Ia, Wilderness_Area_Ib, National_Park_II, Natural_Monument_III, Habitat_or_Species_Management_Area_IV, Protected_Landscape_or_Seascape_V, Managed_Resource_Protected_Area_VI ); /* Flächen ohne Kreisbogen */ Polygon = SURFACE WITH (STRAIGHTS) VERTEX GeometryCHLV03_V1.Coord3 WITHOUT OVERLAPS > 0.001; /* Definition von Multipolygonen, analog CHBase Geometry */ STRUCTURE PolygonStructure = Polygon: Polygon; END PolygonStructure; STRUCTURE MultiPolygon = Polygons: BAG {1..*} OF PolygonStructure; END MultiPolygon; /* Klasse für gesamtes Flachmoorobjekt */ CLASS Flachmoor = ObjNummer : MANDATORY TEXT*30; Name : MANDATORY TEXT*80; RefObjBlatt : INTERLIS.URI; DesignatType : DesignationType; IUCNCategory : MANDATORY IUCNCategory; Inkraftsetzungsdatum : MANDATORY INTERLIS.XMLDate;
-```
+!! Version    | Who   | Modification
+!!------------------------------------------------------------------------------
+!! 2022-06-02 | BAFU  | UNIQUE-Constraint beim Attribut Flachmoor.ObjNummer eingfügt, LV03 gelöscht
 
-```
-Mutationsdatum : INTERLIS.XMLDate; Mutationsgrund : LocalisationCH_V1.MultilingualMText; Geo_Obj : MANDATORY MultiPolygon; END Flachmoor; END Flachmoore; END Flachmoore_LV03_V1_1. !!@ IDGeoIV=21.1 !!@ furtherInformation=https://www.bafu.admin.ch/geodatenmodelle !!@ technicalContact=gis@bafu.admin.ch MODEL Flachmoore_LV95_V1_1 (de) AT "https://models.geo.admin.ch/BAFU/" VERSION "2017-04-11"  = IMPORTS LocalisationCH_V1,GeometryCHLV95_V1; TOPIC Flachmoore = DOMAIN DesignationType = ( SAC, SPA, SCI, RAMSAR, NDA );
-```
+!!@ IDGeoIV=21.1
+!!@ furtherInformation=https://www.bafu.admin.ch/geodatenmodelle
+!!@ technicalContact=mailto:gis@bafu.admin.ch
+MODEL Flachmoore_V1_2 (de)
+AT "https://models.geo.admin.ch/BAFU/"
+VERSION "2022-06-02"  =
+  IMPORTS LocalisationCH_V1,GeometryCHLV95_V1;
 
-```
-IUCNCategory = ( Strict_Nature_Reserve_Ia, Wilderness_Area_Ib, National_Park_II, Natural_Monument_III, Habitat_or_Species_Management_Area_IV, Protected_Landscape_or_Seascape_V, Managed_Resource_Protected_Area_VI ); /* Flächen ohne Kreisbogen */ Polygon = SURFACE WITH (STRAIGHTS) VERTEX GeometryCHLV95_V1.Coord3 WITHOUT OVERLAPS > 0.001; /* Definition von Multipolygonen, analog CHBase Geometry */ STRUCTURE PolygonStructure = Polygon: Polygon; END PolygonStructure; STRUCTURE MultiPolygon = Polygons: BAG {1..*} OF PolygonStructure; END MultiPolygon; /* Klasse für gesamtes Flachmoorobjekt */ CLASS Flachmoor = ObjNummer : MANDATORY TEXT*30; Name : MANDATORY TEXT*80; RefObjBlatt : INTERLIS.URI; DesignatType : DesignationType; IUCNCategory : MANDATORY IUCNCategory;
-```
+  TOPIC Flachmoore =
 
-```
-Inkraftsetzungsdatum : MANDATORY INTERLIS.XMLDate; Mutationsdatum : INTERLIS.XMLDate; Mutationsgrund : LocalisationCH_V1.MultilingualMText; Geo_Obj : MANDATORY MultiPolygon; END Flachmoor; END Flachmoore; END Flachmoore_LV95_V1_1.
+    DOMAIN
+
+      DesignationType = (
+        SAC,
+        SPA,
+        SCI,
+        RAMSAR,
+        NDA
+      );
+
+      IUCNCategory = (
+        Strict_Nature_Reserve_Ia,
+        Wilderness_Area_Ib,
+        National_Park_II,
+        Natural_Monument_III,
+        Habitat_or_Species_Management_Area_IV,
+        Protected_Landscape_or_Seascape_V,
+        Managed_Resource_Protected_Area_VI
+      );
+
+      /** Flächen ohne Kreisbogen */
+      Polygon = SURFACE WITH (STRAIGHTS) VERTEX GeometryCHLV95_V1.Coord3 WITHOUT OVERLAPS > 0.001;
+
+    /** Definition von Multipolygonen, analog CHBase Geometry */
+    STRUCTURE PolygonStructure =
+      Polygon: Polygon;
+    END PolygonStructure;
+
+    STRUCTURE MultiPolygon =
+      Polygons: BAG {1..*} OF PolygonStructure;
+    END MultiPolygon;
+
+    /** Klasse für gesamtes Flachmoorobjekt */
+    CLASS Flachmoor =
+      ObjNummer : MANDATORY TEXT*30;
+      Name : MANDATORY TEXT*80;
+      RefObjBlatt : INTERLIS.URI;
+      DesignatType : DesignationType;
+      IUCNCategory : MANDATORY IUCNCategory;
+      Inkraftsetzungsdatum : MANDATORY INTERLIS.XMLDate;
+      Mutationsdatum : INTERLIS.XMLDate;
+      Mutationsgrund : LocalisationCH_V1.MultilingualMText;
+      Geo_Obj : MANDATORY MultiPolygon;
+    UNIQUE ObjNummer;
+    END Flachmoor;
+
+  END Flachmoore;
+
+END Flachmoore_V1_2.
 ```
 
 ## II Darstellungsmodell Bundesinventar der Flachmoore von nationaler Bedeutung
 
-## (Flachmoore national)
+<img width="699" height="485" alt="image" src="https://github.com/user-attachments/assets/372d6e11-c9f4-4b02-bf8b-766e16ab87cc" />
 
 Layer transparency: 33%
-
-<!-- image -->
 
 Fläche:
 
@@ -265,4 +305,3 @@ Farbname: Fir Green
 
 RGB: 38, 115, 0
 
-[ ]
