@@ -283,7 +283,8 @@ END Flachmoore_V1_2.
 
 ## II Darstellungsmodell Bundesinventar der Flachmoore von nationaler Bedeutung
 
-<img width="699" height="485" alt="image" src="https://github.com/user-attachments/assets/372d6e11-c9f4-4b02-bf8b-766e16ab87cc" />
+<img width="699" height="485" alt="image" src="https://github.com/user-attachments/assets/7cad9f57-6953-40c6-9966-24c66ec42f5e" />
+
 
 Layer transparency: 33%
 
