@@ -1,0 +1,10 @@
+site_name: Dokumentation MGDM BAFU
+theme:
+  name: material
+  palette:
+    scheme: slate # Dunkler Modus (optional)
+    primary: indigo
+
+nav:
+  - Home: index.md
+  - Dokumentation: Flachmoore/Modelldokumentation.md  # Hier deine .md Datei eintragen
