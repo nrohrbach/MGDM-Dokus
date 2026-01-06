@@ -63,7 +63,6 @@ Mit dem GeoIG ist auch die Verordnung über Geoinformationen (GeoIV) in Kraft ge
 Seit dem 1. Januar 1967 ist das Bundesgesetz über den Natur und Heimatschutz (NHG) in Kraft. Es hat u.a. zum Ziel, das heimatliche Landschafts- und Ortsbild, die geschichtlichen Stätten sowie die Natur- und Kulturdenkmäler des Landes zu schonen und die einheimische Tier- und Pflanzenwelt sowie ihre biologische Vielfalt und ihren natürlichen Lebensraum zu schützen. In den Artikeln 18a und 18b sind die Grundlagen für die Bezeichnung und den Schutz der Biotope von nationaler, regionaler und lokaler Bedeutung festgehalten.
 
 Minimale Geodatenmodelle beschreiben den gemeinsamen Kern eines Satzes von Geodaten (Ebene Bund), auf welchem erweiterte Datenmodelle aufbauen können (Ebene Kanton oder Gemeinde), um die unterschiedlichen Bedürfnisse im Vollzug abbilden zu können. Das nachfolgend vorgegebene minimale Geodatenmodell verpflichtet das Bundesamt die Daten in dieser Form zu pflegen und mit den im Datenmodell definierten Relationen zur Verfügung zu stellen.    
-                                                                                   |
 
 ## 2.  Ziel und Zweck
 
