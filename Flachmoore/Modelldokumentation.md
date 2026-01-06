@@ -54,21 +54,16 @@ Von der Direktion des BAFU verabschiedete Version
 
 
 ## 1.  Einleitung
+Flachmoore sind durch Rodungen oder Verlandungen und nachfolgende landwirtschaftliche Nutzung auf nassen Böden entstanden. Wegen umfangreicher Entwässerungen zur Gewinnung von Kulturland und Aufdüngung sind Flachmoore und deren typische Arten in der Schweiz sehr selten geworden. Flachmoore werden heute nicht mehr durch grossflächige Meliorationen zerstört, wie dies früher der Fall war, jedoch oft durch unangepasste Nutzung, lokale Drainagen oder Nährstoffeintrag aus benachbarten Flächen in ihrer Qualität geschmälert. Werden abgelegene Parzellen nicht mehr bewirtschaftet, besteht die Gefahr, dass diese mit Gehölze einwachsen. Flachmoore werden heute auch nicht mehr grossflächig überbaut, jedoch stehen sie oft im Interessenkonflikt mit neuen Erschliessungsstrassen und Infrastrukturen für den Tourismus sowie dem Nutzungsdruck von Freizeitaktivitäten jeder Art.
 
-| Grundlagen   | Flachmoore sind durch Rodungen oder Verlandungen und nachfolgende landwirtschaftliche Nutzung auf nassen Böden entstanden. Wegen umfangreicher Entwässerungen zur Gewinnung von Kulturland und Aufdüngung sind Flachmoore und deren typische Arten in der Schweiz sehr selten geworden. Flachmoore werden heute nicht mehr durch grossflächige Meliorationen zerstört, wie dies früher der Fall war, jedoch oft durch unangepasste Nutzung, lokale Drainagen oder Nährstoffeintrag aus benachbarten Flächen in ihrer Qualität geschmälert. Werden abgelegene Parzellen nicht mehr bewirtschaftet, besteht die Gefahr, dass diese mit Gehölze einwachsen. Flachmoore werden heute auch nicht mehr grossflächig überbaut, jedoch stehen sie oft im Interessenkonflikt mit neuen Erschliessungsstrassen und Infrastrukturen                                                                                                                                                         |
-|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| GeoIG        | Seit dem 1. Juli 2008 ist das Bundesgesetz über Geoinformation (GeoIG) in Kraft. Es hat zum Ziel, auf nationaler Ebene verbindliche bundesrechtliche Standards für die Erfassung, Modellierung und den Austausch von Geodaten 1 des Bundes, insbesondere von Geobasisdaten des Bundesrechts, festzulegen. Weiter regelt es die Finanzierung, das Urheberrecht sowie den Datenschutz. Das Gesetz bildet auch für das Datenmanagement der Kantone und Gemeinden neue, gesicherte rechtliche Grundlagen. So wird sich der Zugang zu den mit grossem Aufwand erhobenen und verwalteten Daten für Behörden, Wirtschaft und Bevölkerung verbessern. Es wird eine Mehrfachnutzung der gleichen Daten in den verschiedensten Anwendungen ermöglichen. Mit der Harmonisierung werden auch Verknüpfungen von Datenbanken möglich, die einfache und neuartige Auswertungen ermöglichen. Die Werterhaltung und die Qualität der Geodaten soll über lange Zeitperioden sichergestellt werden. |
-| GeoIV        | Mit dem GeoIG ist auch die Verordnung über Geoinformationen (GeoIV) in Kraft getreten. Sie präzisiert das GeoIG in fachlicher sowie technischer Hinsicht und führt im Anhang 1 die 'Geobasisdaten des Bundesrechts' auf. Wegen des expliziten Raumbezugs ist das Flachmoor-Inventar in diesen Ausführungsbestimmungen aufgeführt (Anh. 1 GeoIV, Identifikator 21). Art. 9 GeoIV definiert die Aufgaben der zuständigen Fachstelle des Bundes. Im Anh. 1 der GeoIV wird für den Geobasisdatensatz 21 das BAFU als die zuständige Fachstelle des Bundes bezeichnet. Diese muss somit ein minimales Geodatenmodell vorgeben, das Definieren und Beschreiben eines oder mehrerer Darstellungsmodell/e (Art. 11 GeoIV) ist hingegen fakultativ. Das BAFU wird als zuständige Stelle für die Daten bezeichnet. Diese Geobasisdaten sind gemäss GeoIV der Zugangsberechtigungsstufe A zugeteilt, d.h. dass sie öffentlich zugänglich sind und ein Download-Dienst vorgesehen ist.       |
+Seit dem 1. Juli 2008 ist das Bundesgesetz über Geoinformation (GeoIG) in Kraft. Es hat zum Ziel, auf nationaler Ebene verbindliche bundesrechtliche Standards für die Erfassung, Modellierung und den Austausch von Geodaten 1 des Bundes, insbesondere von Geobasisdaten des Bundesrechts, festzulegen. Weiter regelt es die Finanzierung, das Urheberrecht sowie den Datenschutz. Das Gesetz bildet auch für das Datenmanagement der Kantone und Gemeinden neue, gesicherte rechtliche Grundlagen. So wird sich der Zugang zu den mit grossem Aufwand erhobenen und verwalteten Daten für Behörden, Wirtschaft und Bevölkerung verbessern. Es wird eine Mehrfachnutzung der gleichen Daten in den verschiedensten Anwendungen ermöglichen. Mit der Harmonisierung werden auch Verknüpfungen von Datenbanken möglich, die einfache und neuartige Auswertungen ermöglichen. Die Werterhaltung und die Qualität der Geodaten soll über lange Zeitperioden sichergestellt werden.
 
-| NHG                     | Seit dem 1. Januar 1967 ist das Bundesgesetz über den Natur und Heimatschutz (NHG) in Kraft. Es hat u.a. zum Ziel, das heimatliche Landschafts- und Ortsbild, die geschichtlichen Stätten sowie die Natur- und Kulturdenkmäler des Landes zu schonen und die einheimische Tier- und Pflanzenwelt sowie ihre biologische Vielfalt und ihren natürlichen Lebensraum zu schützen. In den Artikeln 18a und 18b sind die Grundlagen für die Bezeichnung und den Schutz der Biotope von nationaler, regionaler und lokaler Bedeutung festgehalten.   |
-|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Rechtlicher Stellenwert | Minimale Geodatenmodelle beschreiben den gemeinsamen Kern eines Satzes von Geodaten (Ebene Bund), auf welchem erweiterte Datenmodelle aufbauen können (Ebene Kanton oder Gemeinde), um die unterschiedlichen Bedürfnisse im Vollzug abbilden zu können. Das nachfolgend vorgegebene minimale Geodatenmodell verpflichtet das Bundesamt die Daten in dieser Form zu pflegen und mit den im Datenmodell definierten Relationen zur Verfügung zu stellen.                                                                                         |
+Mit dem GeoIG ist auch die Verordnung über Geoinformationen (GeoIV) in Kraft getreten. Sie präzisiert das GeoIG in fachlicher sowie technischer Hinsicht und führt im Anhang 1 die 'Geobasisdaten des Bundesrechts' auf. Wegen des expliziten Raumbezugs ist das Flachmoor-Inventar in diesen Ausführungsbestimmungen aufgeführt (Anh. 1 GeoIV, Identifikator 21). Art. 9 GeoIV definiert die Aufgaben der zuständigen Fachstelle des Bundes. Im Anh. 1 der GeoIV wird für den Geobasisdatensatz 21 das BAFU als die zuständige Fachstelle des Bundes bezeichnet. Diese muss somit ein minimales Geodatenmodell vorgeben, das Definieren und Beschreiben eines oder mehrerer Darstellungsmodell/e (Art. 11 GeoIV) ist hingegen fakultativ. Das BAFU wird als zuständige Stelle für die Daten bezeichnet. Diese Geobasisdaten sind gemäss GeoIV der Zugangsberechtigungsstufe A zugeteilt, d.h. dass sie öffentlich zugänglich sind und ein Download-Dienst vorgesehen ist.
 
-Biologische Vielfalt Biodiversitätspolitik
+Seit dem 1. Januar 1967 ist das Bundesgesetz über den Natur und Heimatschutz (NHG) in Kraft. Es hat u.a. zum Ziel, das heimatliche Landschafts- und Ortsbild, die geschichtlichen Stätten sowie die Natur- und Kulturdenkmäler des Landes zu schonen und die einheimische Tier- und Pflanzenwelt sowie ihre biologische Vielfalt und ihren natürlichen Lebensraum zu schützen. In den Artikeln 18a und 18b sind die Grundlagen für die Bezeichnung und den Schutz der Biotope von nationaler, regionaler und lokaler Bedeutung festgehalten.
 
-Grundlage für den Flachmoorschutz
-
-Langfristig geschützte Flachmoore
+Minimale Geodatenmodelle beschreiben den gemeinsamen Kern eines Satzes von Geodaten (Ebene Bund), auf welchem erweiterte Datenmodelle aufbauen können (Ebene Kanton oder Gemeinde), um die unterschiedlichen Bedürfnisse im Vollzug abbilden zu können. Das nachfolgend vorgegebene minimale Geodatenmodell verpflichtet das Bundesamt die Daten in dieser Form zu pflegen und mit den im Datenmodell definierten Relationen zur Verfügung zu stellen.    
+                                                                                   |
 
 ## 2.  Ziel und Zweck
 
@@ -84,10 +79,10 @@ Flachmoore sollen ungeschmälert erhalten bleiben. Streuenutzung oder extensive 
 
 Die Schutzziele sind in der Flachmoorverordnung festgehalten:
 
--  Ungeschmälerte Erhaltung in Fläche und Qualität
--  Erhaltung und Förderung der standortheimischen Pflanzen und Tierwelt
--  Erhaltung der typischen Geländeform
--  Aufwerten und Wiederherstellen bereits geschädigter Moorflächen
+- Ungeschmälerte Erhaltung in Fläche und Qualität
+- Erhaltung und Förderung der standortheimischen Pflanzen und Tierwelt
+- Erhaltung der typischen Geländeform
+- Aufwerten und Wiederherstellen bereits geschädigter Moorflächen
 
 Für die meisten Flachmoore gilt, dass eine extensive landwirtschaftliche Nutzung förderlich  ist.  Dazu  zählen  Streueschnitt  und  vor  allem  in  höheren  Lagen  auch Beweidung. In Berggebieten besteht die Gefahr einer Vergandung mit Verwaldung infolge  Nutzungsaufgabe.  Die  Regelung  zur  Nutzung  der  Flachmoore  erfolgt meistens  mittels  Vereinbarungen  mit  dem  Bewirtschafter.  Mindererträge  und ökologische Leistungen werden abgegolten.
 
@@ -95,15 +90,11 @@ Für die meisten Flachmoore gilt, dass eine extensive landwirtschaftliche Nutzun
 
 Flachmoore wurden aufgrund der Merkmale Fläche und Vegetation ins Flachmoorinventar aufgenommen und kartiert. Als Bedingungen dazu gelten:
 
--  Mindestfläche von 1 ha
--  Flachmoorflächen, die mehr als 100 m auseinanderliegen, wurden als separate Objekte erfasst
--  mindestens 15 Punkte beim Bewertungsmass. Das Bewertungsmass "W" wird wie folgt berechnet: W = N + 2D + F.
+- Mindestfläche von 1 ha
+- Flachmoorflächen, die mehr als 100 m auseinanderliegen, wurden als separate Objekte erfasst
+- mindestens 15 Punkte beim Bewertungsmass. Das Bewertungsmass "W" wird wie folgt berechnet: W = N + 2D + F. (N = Anzahl Vegetationseinheiten, D = Anzahl Vegetationsgruppen, F = Fläche (ha))
+- Antrag auf Aufnahme infolge Singularitäten (Besonderheiten).
 
-N = Anzahl Vegetationseinheiten, D = Anzahl Vegetationsgruppen, F = Fläche (ha)
-
--  Antrag auf Aufnahme infolge Singularitäten (Besonderheiten).
-
-Veröffentlichung der Daten
 
 ## 2.4. Welche Informationen werden wie veröffentlicht?
 
@@ -117,10 +108,15 @@ Das BAFU ist für den Aufbau, die periodische Aktualisierung und die Auswertung 
 
 Die nachfolgend verwendeten Begriffe aus dem GeoIG sind wie folgt definiert 2 :
 
-| Geodaten         | Raumbezogene Daten, die mit einem bestimmten Zeitbezug die Ausdehnung und Eigenschaften bestimmter Räume und Objekte beschreiben, insbesondere deren Lage, Beschaffenheit, Nutzung und Rechtsverhältnisse. (Beispiel.: digitale Strassenkarten, Adressverzeichnis von Routenplanern)   |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Geobasisdaten    | Geodaten, die auf einem rechtsetzenden Erlass des Bundes, eines Kantones oder einer Gemeinde beruhen. (Beispiel: Amtliche Vermessung, Bauzonenplan, Hochmoorinventar)                                                                                                                  |
-| Georeferenzdaten | Geodaten, die im Anhang 1 der GeoIV als solche klassiert sind.                                                                                                                                                                                                                         |
+- **Geodaten:**
+Raumbezogene Daten, die mit einem bestimmten Zeitbezug die Ausdehnung und Eigenschaften bestimmter Räume und Objekte beschreiben, insbesondere deren Lage, Beschaffenheit, Nutzung und Rechtsverhältnisse. (Beispiel.: digitale Strassenkarten, Adressverzeichnis von Routenplanern)
+
+- **Geobasisdaten:**
+Geodaten, die auf einem rechtsetzenden Erlass des Bundes, eines Kantones oder einer Gemeinde beruhen. (Beispiel: Amtliche Vermessung, Bauzonenplan, Hochmoorinventar) 
+
+- **Georeferenzdaten:**
+Geodaten, die im Anhang 1 der GeoIV als solche klassiert sind.  
+                                                                                                                                                                                                   |
 
 ## 3.  Modellbeschreibung
 
@@ -128,9 +124,9 @@ Die nachfolgend verwendeten Begriffe aus dem GeoIG sind wie folgt definiert 2 :
 
 Flachmoore wurden aufgrund von Fläche und Vegetation erfasst und im Massstab 1:25'000 kartiert. Objekte wurden ins Bundesinventar aufgenommen, wenn sie eine Mindestfläche von 1 Hektare und bei der Bewertung mindestens 15 Punkte beim Bewertungsmass erreichten. Flachmoorflächen die mehr als 100 m auseinanderliegen wurden als separate Objekte erfasst. Weiter wurden auf Antrag der  Kantone  Objekte  wegen  Singularitäten  (Besonderheiten)  aufgenommen.  Die Objekte  welche  bei  der  Bewertung  die  notwendige  Punktzahl  nicht  erreichten werden  beim  Bund  in  einem  Datensatz  'Flachmore  von  regionaler  Bedeutung' geführt.  Fläche  und  Lage  dieser  Objekte  sind  in  den  Feldkartierungen  des Bundesinventars festgehalten. Die Perimeter wurden auf der Basis dieser Grundlagen digitalisiert.
 
-Abbildung 1: Georeferenzierung des Objekts mittels PK25
+<img width="424" height="422" alt="image" src="https://github.com/user-attachments/assets/87979b1f-ec1e-4134-9294-7cf8decb085b" />
 
-<!-- image -->
+*Abbildung 1: Georeferenzierung des Objekts mittels PK25*
 
 ## 4.  Modell-Struktur: konzeptionelles Datenmodell
 
