@@ -1,11 +1,44 @@
 site_name: Dokumentation MGDM BAFU
 site_url: https://nrohrbach.github.io/MGDM-Dokus/
+
 theme:
   name: material
+  language: de  # Setzt die Suche und Beschriftungen auf Deutsch
   palette:
-    scheme: slate # Dunkler Modus (optional)
-    primary: indigo
+    # Automatischer Wechsel oder manueller Switch zwischen Hell/Dunkel
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Zum dunklen Modus
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Zum hellen Modus
+  features:
+    - navigation.tabs        # Horizontale Navigation oben
+    - navigation.sections    # Strukturierte Seitenleiste
+    - search.suggest         # Suchvorschläge
+    - search.highlight       # Suchbegriffe markieren
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - admonition               # Erlaubt Infoboxen (!!! info "Titel")
+  - attr_list
+  - md_in_html
 
 nav:
   - Home: index.md
-  - Dokumentation: Flachmoore/Modelldokumentation.md  # Hier deine .md Datei eintragen
+  - Dokumentation: Flachmoore/Modelldokumentation.md
