@@ -1,4 +1,5 @@
 site_name: Dokumentation MGDM BAFU
+site_url: https://nrohrbach.github.io/MGDM-Dokus/
 theme:
   name: material
   palette:
