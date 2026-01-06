@@ -134,57 +134,42 @@ Flachmoore wurden aufgrund von Fläche und Vegetation erfasst und im Massstab 1:
 
 Die Abbildung 2 zeigt das UML-Diagramm für die Bundesinventare der Flachmoore von nationaler Bedeutung.
 
-## Flachmoor
+```mermaid
+classDiagram
+    class Flachmoor {
+        +Zeichenkette ObjNummer [1]
+        +Zeichenkette Name [1]
+        +Zeichenkette RefObjBlatt [0..1]
+        +DesignationType DesignatType [0..1]
+        +IUCNCategory IUCNCategory [1]
+        +XMLDate Inkraftsetzungsdatum [1]
+        +XMLDate Mutationsdatum [0..1]
+        +MultilingualMText Mutationsgrund [0..1]
+        +MultiPolygon Geo_Obj [1]
+    }
 
-ObjNummer[1] : Zeichenkette
+    class DesignationType {
+        <<enumeration>>
+        SAC
+        SPA
+        SCI
+        RAMSAR
+        NDA
+    }
 
-Name[1] : Zeichenkette
+    class IUCNCategory {
+        <<enumeration>>
+        Strict_Nature_Reserve_Ia
+        Wilderness_Area_Ib
+        National_Park_II
+        Natural_Monument_III
+        Habitat_or_Species_Management_Area_IV
+        Protected_Landscape_or_Seascape_V
+        Managed_Resource_Protected_Area_VI
+    }
+```
 
-RefObjBlatt[0..1] : Zeichenkette
-
-DesignatType[0..1] : DesignationType
-
-IUCNCategory[1] : IUCNCategory
-
-Inkraftsetzungsdatum[1] : XMLDate
-
-Mutationsdatum[0..1] : XMLDate
-
-Mutationsgrund[0..1] : MultilingualMText
-
-Geo\_Obj[1] : MultiPolygon
-
-DesignationType &lt;&lt;enumeration&gt;&gt;
-
-SAC
-
-SPA
-
-SCI
-
-RAMSAR
-
-NDA
-
-IUCNCategory
-
-&lt;&lt;enumeration&gt;&gt;
-
-Strict\_Nature\_Reserve\_Ia
-
-Wilderness\_Area\_Ib
-
-National\_Park\_II
-
-Natural\_Monument\_III
-
-Habitat\_or\_Species\_Management\_Area\_IV
-
-Protected\_Landscape\_or\_Seascape\_V
-
-Managed\_Resource\_Protected\_Area\_VI
-
-Abbildung 2: Darstellung des Bundesinventar der Flachmoore von nationaler Bedeutung als UML-Diagramm
+*Abbildung 2: Darstellung des Bundesinventar der Flachmoore von nationaler Bedeutung als UML-Diagramm*
 
 ## 4.2. Objektklassenkatalog
 
