@@ -42,3 +42,4 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Dokumentation: Flachmoore/Modelldokumentation.md
+  - Waldreservate: Waldreservate.md
