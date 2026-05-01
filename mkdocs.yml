@@ -41,5 +41,24 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Dokumentation: Flachmoore/Modelldokumentation.md
+  - Flachmoore: Flachmoore/Modelldokumentation.md
   - Waldreservate: Waldreservate.md
+  - Biodiversität:
+    - Steinbockkolonien: Biodiversitaet/01_Steinbockkolonien.md
+    - Amphibienlaichgebiete (Bund): Biodiversitaet/02_Amphibienlaichgebiete_Bund.md
+    - Auengebiete (kantonal): Biodiversitaet/03_Auengebiete_kt.md
+    - Biotope regional/lokal: Biodiversitaet/04_Biotope_reg_lok.md
+    - Auengebiete (Bund): Biodiversitaet/05_Auengebiete_Bund.md
+    - Jagdbanngebiete: Biodiversitaet/06_Jagdbanngebiete.md
+    - Flachmoore (Bund): Biodiversitaet/07_Flachmoore_Bund.md
+    - Hochmoore (Bund): Biodiversitaet/08_Hochmoore_Bund.md
+    - Moorlandschaften: Biodiversitaet/09_Moorlandschaften.md
+    - Trockenwiesen (Bund): Biodiversitaet/10_Trockenwiesen_Bund.md
+    - Flachmoore (kantonal): Biodiversitaet/11_Flachmoore_kt.md
+    - Amphibienlaichgebiete (kantonal): Biodiversitaet/12_Amphibienlaichgebiete_kt.md
+    - Hochmoore (kantonal): Biodiversitaet/13_Hochmoore_kt.md
+    - Trockenwiesen (kantonal): Biodiversitaet/14_Trockenwiesen_kt.md
+    - Ramsar: Biodiversitaet/15_Ramsar.md
+    - Wasser- und Zugvogelreservate: Biodiversitaet/16_Wasser_Zugvogelreservate.md
+    - Wildruhezonen: Biodiversitaet/17_Wildruhezonen.md
+    - Test: Biodiversitaet/test.md
